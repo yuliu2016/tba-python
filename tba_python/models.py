@@ -1,6 +1,6 @@
 # The Blue Alliance API Version 3.8.0 
 
-from typing import *
+from typing import TypeVar, List, NamedTuple, Generic
 
 V = TypeVar("V")
 

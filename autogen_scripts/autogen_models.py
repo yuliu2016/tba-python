@@ -10,7 +10,7 @@ api_version = data["info"]["version"]
 
 model_schemas = data["components"]["schemas"]
 
-header = """from typing import *
+header = """from typing import TypeVar, List, NamedTuple, Generic
 
 V = TypeVar("V")
 
